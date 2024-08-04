@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MMD to HTML</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #content {
+            width: 280px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            position: relative;
+        }
+        input[type="file"] {
+            display: block;
+            margin: 10px auto;
+            font-size: 16px;
+        }
+        button {
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #1976D2;
+        }
+        /* Question mark link */
+        .help-link {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 50%;
+            font-size: 14px;
+            color: black;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .help-link:hover {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <a href="https://github.com/5rijan/PaperBridge" target="_blank" class="help-link" title="Help">
+            ?
+        </a>
+        <input type="file" id="mmdFile" accept=".mmd">
+        <button id="convert">Convert</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
+
