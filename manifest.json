@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "MMdviewer",
+    "version": "1.0",
+    "description": "Split the page to show a PDF and an HTML page.",
+    "permissions": [
+      "activeTab",
+      "downloads",
+      "scripting",
+      "storage"
+      ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["example.html", "convert.js", "bundle.js"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+    
+  }
+  
