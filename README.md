@@ -4,6 +4,9 @@ Welcome to the Paperbridge project! This repository provides the source code and
 
 **Follow this links for detailed overview of the project** [documentaion](https://5rijan.github.io/paperbridge-docs/)
 
+![Paperbridge Logo](images/4.jpg)
+
+
 ## Overview
 
 Paperbridge addresses the limitations of PDFs by converting them into MMD, a markup language that maintains the document's structural and semantic integrity. This process includes:
