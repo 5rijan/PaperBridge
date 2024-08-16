@@ -1,6 +1,8 @@
 # Paperbridge
 
-Welcome to the Paperbridge project! This repository provides the source code and resources for Paperbridge, a tool designed to enhance the accessibility and usability of scientific documents by converting PDFs to Mathpix Markdown (MMD) and allowing for editing and exporting via a browser extension.
+Welcome to the Paperbridge project! This repository provides the source code and resources for Paperbridge, a tool designed to enhance the accessibility and usability of scientific documents by converting PDFs to Mathpix Markdown (MMD) and allowing for editing and exporting via a browser extension. 
+
+**Follow this links for detailed overview of the project** [documentaion](https://5rijan.github.io/paperbridge-docs/)
 
 ## Overview
 
@@ -22,14 +24,15 @@ To get started with Paperbridge:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/paperbridge.git
+   git clone https://github.com/5rijan/PaperBridge.git
    ```
 
 2. **Install Dependencies**:
-    Follow the installation instructions provided in the online documentation.
+    Follow the installation instructions provided in the online [documentation](https://5rijan.github.io/paperbridge-docs/)
+
 
 ## Contributing 
-We welcome contributions to the Paperbridge project!
+This is a open source project and we welcome any contributions to the Paperbridge project!
 
 ## Research and Projects
 If you are interested in including Paperbridge in your research or projects, please reach out to us. We would love to collaborate and support the advancement of scientific document accessibility. Contact us via email at srijanchaudhary2003@gmail.com for more information.
